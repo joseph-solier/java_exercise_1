@@ -59,6 +59,7 @@ public class Launcher {
                 return;
             } else {
                 if (res.equals("fibo")) {
+                    System.out.println("Enter a number :");
                     int n = scanner.nextInt();
                     System.out.println(fibonacci(n));
 
